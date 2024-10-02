@@ -9,14 +9,14 @@ import argparse
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--genome', help = 'input genome')
-parser.add_argument('--outprefix', help = 'Prefix for output files')
+parser.add_argument('--output', help = 'Prefix for output files')
 parser.add_argument('--window', default = 10, help = 'window to be calculate')
 parser.add_argument('--base', default = "T", help = 'base to calculate')
 args = parser.parse_args()
 
 
 
-with open(args.outprefix,'w') as o_file:
+with open(args.output,'w') as o_file:
     with open(args.genome) as file:
         lines = file.readlines()
         Full_lines = []
