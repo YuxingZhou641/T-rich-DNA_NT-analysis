@@ -1,4 +1,4 @@
-# T-enrich-analysis
+# T-rich-DNA_NT analysis
 This section provides customized code for the analysis presented in the paper: Molecular Basis of an Adenine-Rich Template DNA-Induced Spontaneous Transcription Termination.
 
 ## Software/package
