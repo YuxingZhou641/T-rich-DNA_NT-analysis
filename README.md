@@ -2,8 +2,8 @@
 This section provides customized code for the analysis presented in the paper: Molecular Basis of an Adenine-Rich Template DNA-Induced Spontaneous Transcription Termination.
 
 ## Software/package
-1. python -v 3.9.12 
-2. argparse -v 3.2
+1. Python -v3.9.12 
+2. argparse -v3.2
 
 ## Step 1: Calculate the T Enrichment Score
 To calculate the T enrichment score, use base_enrichment.py with the following command:
