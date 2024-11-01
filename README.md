@@ -1,5 +1,5 @@
 # T-rich-DNA_NT analysis
-This section provides customized code for the analysis presented in the paper: Molecular Basis of an Adenine-Rich Template DNA-Induced Spontaneous Transcription Termination.
+This section provides customized code for the analysis presented in the paper: A spontaneous termination mechanism of RNA polymerase V shapes the DNA methylation landscape in plants.
 
 ## Software/package
 1. Python -v3.9.12 
