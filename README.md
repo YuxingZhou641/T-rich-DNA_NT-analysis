@@ -23,5 +23,18 @@ consecutive thymines, xi as the length of the ith run of consecutive thymines in
 region of k-3 to k+3, and g equal to the longest run of consecutive non- thymines in the
 region of k-3 to k+3, the score was calculated as:
 
-$$
-T_score = \max (t+(\sum^(c)_i=1+\sum^(x_i)-1)_j=1-g,0)
+
+ $`T_score = \max (t+(\sum^c_{i=1}+\sum^{x_i-1}_{j=1}j)-g,0)`$
+
+Examples (V = A, C or G):
+VVTVVVV = 1+0-4, 0 = -3 -> adjusted to 0
+TTTTTTT = 7+(1+2+3+4+5+6)-4 = 28
+TTVVTTT = 5+[(1)+(1+2)]-2 = 7
+VTTTVVT = 4+[(1+2)+0]-2 = 5
+
+Similarly, AT-score was calculated using the same formula as above, but considering
+both As and Ts equally. For example (S = C or G):
+SSTSSSS = 1+0-4, 0 = -3 -> adjusted to 0
+ATATATA = 7+(1+2+3+4+5+6)-4 = 28
+TASSTAA = 5+[(1)+(1+2)]-2 = 7
+STAASST = 4+[(1+2)+0]-2 = 5
