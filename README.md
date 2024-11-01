@@ -1,8 +1,7 @@
 # T-rich-DNA_NT analysis
 This section provides customized code for the analysis presented in the paper:
 
-A spontaneous termination mechanism of RNA polymerase V shapes the DNA methylation landscape in plants
-Guohui Xie†, Xuan Du†, Yifang Tan†, Yuxing Zhou†, Cheng Chi†, Sixian Zhou, Colette L. Picard, Lei Wu, Danling Zhu, Jun Zhao, Yan Xue, Sisi Li, Steven E. Jacobsen*, Zhe Wu*, Jiamu Du*
+**A spontaneous termination mechanism of RNA polymerase V shapes the DNA methylation landscape in plants.** Guohui Xie†, Xuan Du†, Yifang Tan†, Yuxing Zhou†, Cheng Chi†, Sixian Zhou, Colette L. Picard, Lei Wu, Danling Zhu, Jun Zhao, Yan Xue, Sisi Li, Steven E. Jacobsen*, Zhe Wu*, Jiamu Du*
 
 
 ## Software/package
