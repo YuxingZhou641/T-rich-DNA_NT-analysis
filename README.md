@@ -23,4 +23,5 @@ consecutive thymines, xi as the length of the ith run of consecutive thymines in
 region of k-3 to k+3, and g equal to the longest run of consecutive non- thymines in the
 region of k-3 to k+3, the score was calculated as:
 
-$T_score = \max (t+(\sum^(c)_i=1+\sum^(x_i)-1)_j=1-g,0)
+$$
+T_score = \max (t+(\sum^(c)_i=1+\sum^(x_i)-1)_j=1-g,0)
